@@ -8,7 +8,10 @@ import Businessman from "../../../assets/images/businessman.png";
 const Description = () => {
   return (
     <section className="py-20 flex flex-col md:gap-40 gap-20 bg-white md:px-6 px-4">
-      <section className="md:flex flex-row-reverse items-center gap-10">
+      <section className="md:flex items-center gap-10">
+        <section className="w-full mb-10 md:mb-0 md:w-1/2">
+          <img src={Ride} alt={Ride} />
+        </section>
         <section className="w-full md:w-1/2 flex flex-col">
           <p className="mb-10 text-sm font-normal uppercase tracking-wide">
             Experience the ultimate in luxury and convenience with our premier
@@ -29,11 +32,11 @@ const Description = () => {
             airport transfers, business meetings, or any special events.
           </p>
         </section>
-        <section className="w-full mt-10 md:mb-0 md:w-1/2">
-          <img src={Ride} alt={Ride} />
-        </section>
       </section>
-      <section className="md:flex items-center gap-10">
+      <section className="md:flex md:flex-row-reverse md:flex-row items-center gap-10">
+        <section className="w-full mb-10 md:mb-0 md:w-1/2">
+          <img src={Client} alt={Client} />
+        </section>
         <section className="w-full md:w-1/2 flex flex-col">
           <p className="mb-10 text-sm font-normal uppercase tracking-wide">
             For those special occasions, our stretch limousines add an extra
@@ -51,11 +54,11 @@ const Description = () => {
             Book with us today and travel in the luxury you deserve.
           </p>
         </section>
-        <section className="w-full mt-10 md:mb-0 md:w-1/2">
-          <img src={Client} alt={Client} />
-        </section>
       </section>
       <section className="md:flex items-center gap-10">
+        <section className="w-full mb-10 md:mb-0 md:w-1/2">
+          <img src={Passenger} alt={Passenger} />
+        </section>
         <section className="w-full md:w-1/2 flex flex-col">
           <p className="mb-10 text-sm font-normal uppercase tracking-wide">
             Experience seamless and stress-free travel with our Airport Transfer
@@ -71,11 +74,11 @@ const Description = () => {
             transfer services for a worry-free journey to your destination.
           </p>
         </section>
-        <section className="w-full md:mb-0 md:w-1/2">
-          <img src={Passenger} alt={Passenger} />
-        </section>
       </section>
-      <section className="md:flex flex-row-reverse  items-center gap-10">
+      <section className="md:flex md:flex-row-reverse md:flex-row items-center gap-10">
+        <section className="w-full mb-10 md:mb-0 md:w-1/2">
+          <img src={Customer} alt={Customer} />
+        </section>
         <section className="w-full md:w-1/2 flex flex-col">
           <p className="mb-10 text-sm font-normal uppercase tracking-wide">
             Experience seamless and stress-free travel with our Airport Transfer
@@ -92,9 +95,6 @@ const Description = () => {
             efficient, and luxurious travel experience. Choose our airport
             transfer services for a worry-free journey to your destination.
           </p>
-        </section>
-        <section className="w-full mt-10 md:mb-0 md:w-1/2">
-          <img src={Customer} alt={Customer} />
         </section>
       </section>
       <section className="md:flex items-center gap-10">
