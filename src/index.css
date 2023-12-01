@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Inconsolata";
+    src: local("Inconsolata"),
+      url("./assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf")
+        format("truetype");
+  }
