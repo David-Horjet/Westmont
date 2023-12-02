@@ -15,7 +15,7 @@ const Navbar = () => {
             <ul className="flex items-center gap-10">
               <li>
                 <a
-                  href="tel:+3314441878"
+                  href="tel:+3312892088"
                   className="text-base font-medium text-gray-800 hidden md:block"
                 >
                   (331) 289-2088

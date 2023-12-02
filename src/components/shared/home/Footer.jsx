@@ -60,7 +60,7 @@ const Footer = () => {
             </p>
             <span className="w-full mb-5 text-stone-400 md:text-start text-center text-sm font-normal uppercase leading-normal tracking-[3.50px]">
               Call Center:{" "}
-              <a href="tel:+3314441878">+397 256 38 29</a>
+              <a href="tel:+3312892088">+331 289 20 88</a>
             </span>
             <span className="w-full text-stone-400 md:text-start text-center text-sm font-normal uppercase leading-normal tracking-[3.50px]">
               Our location:{" "}
